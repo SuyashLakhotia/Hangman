@@ -1,4 +1,4 @@
-(function() {
+$(function() {
     var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var lettersArr = letters.split("");
     var chosenWord, chosenWordArr, guessedWordArr, numOfMisses, numOfCorrect;
