@@ -2,3 +2,56 @@ body {
     font-family: 'Helvetica Nueue', 'Helvetica', sans-serif;
     background: #fff;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#game {
+    margin-top: 40px;
+}
+
+#misses {
+    font-size: 120px;
+    margin-top: 30px;
+}
+
+.letter-btn {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+#word {
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+
+#characters {
+    text-align: center;
+
+    .character {
+        font-size: 50px;
+        display: inline-block;
+        padding: 10px 15px;
+    }
+}
+
+.alert-row {
+    display: none;
+    margin-top: 70px;
+
+    .alert-win,
+    .alert-lose {
+        display: none;
+    }
+
+    .reset-btn {
+        font-size: 18px;
+        height: 50px;
+        width: 200px;
+    }
+}

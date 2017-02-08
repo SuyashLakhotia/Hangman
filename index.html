@@ -15,6 +15,34 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="row" id="game">
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <h1 id="misses">9</h1>
+                    </div>
+                    <div class="row">
+                        <h2>misses left</h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row" id="word">
+                        <div id="characters"></div>
+                    </div>
+                    <div class="row" id="keypad"></div>
+                </div>
+            </div>
+            <div class="row alert-row">
+                <div class="col-md-8">
+                    <div class="alert alert-success alert-win" id="win"><strong>Success!</strong> You've guessed the word correctly!</div>
+                    <div class="alert alert-danger alert-lose" id="lose"><strong>Sorry!</strong> You've run out of guesses. :(</div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <button class="btn btn-primary reset-btn">Reset Game</button>
+                </div>
+            </div>
+        </div>
+
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
