@@ -44,8 +44,9 @@ $(function() {
     }
 
     function finishGame(win) {
-        $(".alert-row").show();
+        $(".letter-btn").prop("disabled", true);
 
+        $(".alert-row").show();
         if (win) $("#win").show();
         else $("#lose").show();
     }
