@@ -1,0 +1,29 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuyashLakhotia/Hangman.git"
+  },
+  "author": "Suyash Lakhotia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuyashLakhotia/Hangman/issues"
+  },
+  "homepage": "https://github.com/SuyashLakhotia/Hangman",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.2.2"
+  }
+}

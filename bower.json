@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Suyash Lakhotia"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SuyashLakhotia/Hangman",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
