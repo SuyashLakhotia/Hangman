@@ -48,7 +48,11 @@ $(function() {
 
         $(".alert-row").show();
         if (win) $("#win").show();
-        else $("#lose").show();
+        else
+        {   
+             $("#lose").text("Sorry, you've run out of gueses. The word was: "+chosenWord);
+            $("#lose").show();}
+        
     }
 
     function setWord() {
